@@ -13015,3 +13015,431 @@ body > #mus-topalert > .mus-web-test-alert {
     border-right: 5px solid #333;
     border-bottom: 5px solid #333
 }
+
+/*Repurpose Program Page Styles*/
+
+
+input[type='text'],
+input[type='number'],
+textarea {
+    font-size: 16px;
+}
+
+
+/* ---------------------------- program cards ------------------------------- */
+
+#programs {
+    min-height: 266px;
+}
+
+    #programs img {
+        width: 100%;
+    }
+
+    #programs .program-block {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+
+.program-block > a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+#programs div.program-name {
+    background: #003f7f;
+    padding: 10px;
+    width: 100%;
+}
+
+div.program-name div a, div.program-name div {
+    color: #eeeeee;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.program-name .program-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+.program-name, .selectize-control {
+    min-height: 72px !important;
+    font-family: 'Open Sans', serif;
+}
+
+.program-sub-description {
+    font-family: "Open Sans", serif;
+    font-size: 13px !important;
+    margin-top: 10px;
+}
+
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program-block {
+    background: rgb(0, 63, 127);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: 3px solid white;
+}
+
+
+
+/* ---------------------------- mobile portrait behavior ------------------------------- */
+
+@media (max-width: 767px) {
+    #search-form {
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .select2 {
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        padding-top: 10px;
+        margin-top: 0px !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b::after {
+        top: 5px !important;
+    }
+
+    #search-clear, #search-button {
+        font-size: 25px !important;
+    }
+
+    .program-block img {
+        display: none !important;
+    }
+
+    #programs div.program-name {
+        position: relative;
+        bottom: inherit;
+        padding: 15px !important;
+        text-align: center;
+    }
+
+    #programs div.program-block {
+        margin-bottom: 2px;
+    }
+
+    #search-majors-degrees {
+        padding: 25px 15px;
+    }
+
+    #search-button {
+        height: 49px !important;
+    }
+
+    #search-form div.col-lg-offset-2.col-lg-8 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .select2-selection__rendered {
+        padding: 15px 25px !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b::after {
+        top: 16px !important;
+    }
+}
+
+#search-clear {
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -3px;
+    color: #999 !important;
+    z-index: 2;
+}
+
+#search-form button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#search-button {
+    height: 34px;
+    padding: 3px 20px;
+    background: #003f7f !important;
+    border-radius: 0;
+}
+
+    #search-button:hover {
+        z-index: 0;
+    }
+
+input#search {
+    border-radius: 0;
+    z-index: 0;
+}
+
+
+/* ---------------------------- search form ------------------------------- */
+
+
+/* #search {
+	height: inherit;
+	padding: 12px 12px;
+	padding-bottom: 0;
+}
+
+*/
+
+#search-form {
+    background: #2078B6;
+    margin: 20px 0px;
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+    padding: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#search-majors-degrees {
+    border-radius: 0;
+    border: none;
+}
+
+
+
+#search-form select, #search-form .selectize-control {
+    margin-top: 15px;
+}
+
+/* ---------------------------- images ------------------------------- */
+
+
+#banner-img {
+    z-index: 0;
+    width: 100%;
+}
+
+/*
+
+@media (min-width: 1200px) {
+	.container{
+		width: 100%;
+		max-width: 1400px;
+	}
+}
+
+*/
+
+/* ---------------------------- select2 plugin - used for By Degree Type / By Interest selects ------------------------------- */
+
+.select2-container .select2-selection--single {
+    height: 50px;
+    background: none;
+    border: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #ffcb05;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border: none;
+}
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b::after {
+        content: '\f078';
+        font-family: FontAwesome;
+        color: white;
+        position: relative;
+        top: -6px;
+        right: 10px !important;
+        font-size: 19px;
+    }
+
+.select2 {
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+.select2-selection__clear {
+    color: white;
+    font-size: 20px !important;
+    margin-right: 8px;
+}
+
+.select2-selection__rendered {
+    color: white !important;
+    font-size: 18px;
+    padding: 5px 25px;
+}
+
+    .select2-selection__rendered:not(.is-empty) {
+        background: #003f7f;
+    }
+
+.select2-container--default .select2-results > .select2-results__options {
+    max-height: inherit;
+    font-size: 18px;
+}
+
+/* override the jerky affix menu that shows up on mobile */
+#stick.affix {
+    position: initial;
+}
+
+h1 {
+    display: none;
+}
+
+    h1#program-pages-heading {
+        display: block;
+        position: absolute;
+        font-size: 4.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 70px;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+        color: white !important;
+        padding: 10px 20px;
+    }
+
+#breadcrumb {
+    display: none;
+}
+
+/* give some responsive help to the <h1> */
+
+@media (min-width: 0px) {
+    h1#program-pages-heading {
+        font-size: 1.5em;
+        margin-top: 0;
+        width: 93%;
+        padding-top: 2px;
+    }
+}
+
+@media (min-width: 410px) {
+    h1#program-pages-heading {
+        font-size: 1.8em;
+        padding-top: 2px;
+        margin-top: 0;
+        width: 93%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    h1#program-pages-heading {
+        margin-top: 0;
+        padding-top: 2px;
+        font-size: 2.3em;
+        line-height: 35px;
+    }
+
+    .program-block.col-sm-6 {
+        width: 49.5%;
+    }
+
+    #programs {
+        padding-left: 13px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1#program-pages-heading {
+        margin-top: 0px;
+        line-height: 45px;
+        font-size: 3.0em;
+    }
+
+    .program-block.col-md-4 {
+        width: 33.0%;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1#program-pages-heading {
+        margin-top: 10px;
+        line-height: 70px;
+        font-size: 4.0em;
+    }
+
+    .program-block.col-lg-3 {
+        width: 24.5%;
+    }
+
+    .program-block.col-lg-4 {
+        width: 20.0%;
+    }
+
+    #programs {
+        padding-left: 25px;
+    }
+}
+
+.select2 *:focus {
+    outline: 1px dotted #003f7f;
+}
+
+#mode-container {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -39px;
+}
+
+#mode-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+    #mode-buttons a, #mode-buttons a:active, #mode-buttons a:visited {
+        color: #000;
+        text-decoration: none;
+        background: #f2cf39;
+        border-right: 1px solid #000;
+    }
+
+        #mode-buttons a.active, #mode-buttons a.active:active, #mode-buttons a.active:visited {
+            font-weight: 600;
+            color: white;
+            background: #2078b6;
+        }
+
+@media (max-width: 991px) {
+    #mode-container {
+        display: none;
+        width: 100%;
+        margin-top: -25px;
+    }
+
+    #mode-buttons a {
+        padding: 5px 20px;
+        width: 33.3%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    #mode-buttons a {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+}
