@@ -1,0 +1,35 @@
+﻿<%@  Language="C#"  AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ExpertSystemTest.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/logo_2022_white.png" style="width:350px;height:150px;" />
+        </figure>
+   <div class="search">
+      <label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q">
+       <button>Search</button>
+   </div>
+         </header>
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+
+        
+    </div>
+    </form>
+
+</body>
+</html>
