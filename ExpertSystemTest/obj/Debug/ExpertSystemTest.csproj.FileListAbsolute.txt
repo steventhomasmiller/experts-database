@@ -35,3 +35,7 @@ C:\Users\j98b363\Source\Repos\Experts\ExpertSystemTest\obj\Debug\ExpertSystemTes
 C:\Users\j98b363\Source\Repos\Experts\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.CoreCompileInputs.cache
 C:\Users\j98b363\Source\Repos\Experts\ExpertSystemTest\obj\Debug\ExpertSystemTest.dll
 C:\Users\j98b363\Source\Repos\Experts\ExpertSystemTest\obj\Debug\ExpertSystemTest.pdb
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.AssemblyReference.cache
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.CoreCompileInputs.cache
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Debug\ExpertSystemTest.dll
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Debug\ExpertSystemTest.pdb
