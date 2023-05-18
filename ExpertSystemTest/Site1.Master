@@ -218,11 +218,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <form id="form1" runat="server">
     <div>
+        <div id="programs" class="row equal">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
           
         </asp:ContentPlaceHolder>
 
-        
+     <!-- End programs id --> </div>    
     </div>
     </form>
      <!-- ends container--> </div>

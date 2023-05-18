@@ -7,19 +7,21 @@
     <link href="StyleSheet1.css" rel="stylesheet" />
     <asp:ListView ID="ListView1" runat="Server">
         <ItemTemplate>
-            <div class="content">
-            <div class="List">
-                <table>
-                   
-                    <tr><td><img src="<%#Eval("Img_url") %>" class="center" ></td></tr>
-                    <tr><td><h2><%# Eval("name") %></h2></td></tr>
-                    <tr><td><p><%# Eval("College") %></p></td></tr>
-                    <tr><td><p><strong>Department:</strong><br/><%# Eval("Dept") %></p></td></tr>
-                    <tr><td><p><strong>Specialization:</strong><br/><%# Eval("Specialization") %></p></td></tr>
+
+             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 program-block" data-program="Accounting" data-degrees="" data-interests="" data-keywords="" data-unique-id="">
+                        <a href="https://www.msubillings.edu/citycollege/programs/ProgAccountingTech.htm">
+                            <div><img src="<%#Eval("Img_url") %>" alt="Photo of "<%# Eval("name") %>></div>
+                            <div class="program-name">
+                                <div class="program-title"><%# Eval("name") %></div>
+                                <div class="program-sub-description"><%# Eval("College") %></div>
+                                    <p><strong>Department:</strong><br/><%# Eval("Dept") %></p>
+                                    <p><strong>Specialization:</strong><br/><%# Eval("Specialization") %></p>
+                            </div>
+                        </a>
+                    </div>
+            
                         
-                </table>
-            </div>
-            </div>
+       
         </ItemTemplate>
     </asp:ListView>
 </asp:Content>
