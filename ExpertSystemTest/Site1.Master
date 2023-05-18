@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
  <body class="responsive"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N6LWHNM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PR87H4K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="mus-topalert" id="mus-topalert" data-alert-url="https://www.montana.edu/assets/feeds/msubillings-alert.html" style="display:none;"></div>
       <header class="wrapper" id="header" role="banner">
-         <div class="container" id="banner"><img class="visible-print" src="/_resources/msu/2/images/structure/msubillings/msub_header_logo-white2.svg" height="63" width="250" alt="images/structure/msubillings/msub_header_logo-white2.svg"><div class="row clearfix hidden-print">
+         <div class="container" id="banner"><img class="visible-print" src="/img/msub_header_logo-white2.svg" height="63" width="250" alt="images/structure/msubillings/msub_header_logo-white2.svg"><div class="row clearfix hidden-print">
                <div class="col-sm-12 cf">
                   <div class="row">
                      <div class="col-sm-4 col-md-6 column pull-right text-right hidden-xs nav pull-right text-left" id="header-tools">
@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      </div>
                      <div id="stick" data-spy="affix" data-offset-top="125">
                         <ul class="siteheaderlinks">
-                           <li id="sitelogo"><a class="navbar-brand" href="https://www.msubillings.edu/"><img src="/_resources/msu/2/images/structure/msubillings/msub_header_logo-white2.svg" alt="Montana State University Billings" title="Montana State University Billings" height="44" width="174"></a></li>
+                           <li id="sitelogo"><a class="navbar-brand" href="https://www.msubillings.edu/"><img src="/img/msub_header_logo-white2.svg" alt="Montana State University Billings" title="Montana State University Billings" height="44" width="174"></a></li>
                         </ul>
                         <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
                            <li class="pull-left" id="menu-nav"><a href="#" title="Menu" id="menuButton" class="menu-button pull-left"><span class="burger-icon"><span class="sr-only"></span></span></a></li>
@@ -158,7 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>Located in Billings, MT</p>
 </div>
                         <div class="col-sm-3 col-xs-6 col-ts-12">
-                           <div class="brand muted pull-right"><a href="https://www.msubillings.edu" onclick=" "><img src="/_resources/msu/2/images/structure/msubillings/msub_footer_logo.svg" alt="Montana State University Billings" width="100%"></a></div>
+                           <div class="brand muted pull-right"><a href="https://www.msubillings.edu" onclick=" "><img src="/img/msub_footer_logo.svg" alt="Montana State University Billings" width="100%"></a></div>
                         </div>
                      </div>
                   </div>
