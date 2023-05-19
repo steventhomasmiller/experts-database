@@ -8,7 +8,7 @@
     <asp:ListView ID="ListView1" runat="Server">
         <ItemTemplate>
 
-             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 program-block" data-program="Accounting" data-degrees="" data-interests="" data-keywords="" data-unique-id="">
+             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 program-block" data-program="" data-degrees="" data-interests="" data-keywords="" data-unique-id="">
                         <a href="https://www.msubillings.edu/citycollege/programs/ProgAccountingTech.htm">
                             <div><img src="<%#Eval("Img_url") %>" alt="Photo of "<%# Eval("name") %>></div>
                             <div class="program-name">

@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </ul>
                         </div>
                         <div class="col-sm-12 page-header clearfix">
-                            <h1>Programs and Degrees</h1>
+                            <h1>Experts Database</h1>
                             <div class="row clearfix hidden-print">
                                 <div id="yamm-placeholder">
                                     <div id="stick2" class="col-sm-12 affix-top" data-spy="affix" data-offset-top="125">

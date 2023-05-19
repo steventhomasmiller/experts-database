@@ -19,7 +19,7 @@ namespace ExpertSystemTest
         {
             string conStr = WebConfigurationManager.ConnectionStrings["ExpertConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(conStr);
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization]FROM[Expert_system_data].[dbo].[Fac_Success_Images] order by Dept,LastName ", con);
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization]FROM[Expert_system_data].[dbo].[Fac_Success_Images] order by LastName", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             ListView1.DataSource = dt;
