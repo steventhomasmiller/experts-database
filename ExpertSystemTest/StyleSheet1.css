@@ -13208,7 +13208,7 @@ input#search {
     z-index: 1;
     position: relative;
     padding: 25px;
-    padding-bottom: 0;
+    padding-bottom: 25px;
     margin-bottom: 0;
 }
 

@@ -96,6 +96,7 @@
     <Content Include="img\logo_2022_white.png" />
     <Content Include="img\msub_footer_logo.svg" />
     <Content Include="img\msub_header_logo-white2.svg" />
+    <Content Include="img\TEST-Billings-Montana-MSUB.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -147,15 +147,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       <div class="wrapper clearfix buffer-top buffer-bottom">
             <div class="container">
-                <!-- removing search for now -->
-                <!-- 
+                
                 <div class="row">
                     <div id="program-banner-container" class="col-lg-12">
                         <h1 id="program-pages-heading">
                             <br />
-                            <td class="mceEditable _content _page-title">Programs and Degrees</td>
+                            <td class="mceEditable _content _page-title">Experts Search</td>
                         </h1>
-                        <td class="mceEditable _content _page-banner"><img src="/future/degrees/img/TEST-Billings-Montana-MSUB.jpg" alt="city of billings" width="" height="" /></td>
+                        <td class="mceEditable _content _page-banner"><img src="/img/TEST-Billings-Montana-MSUB.jpg" alt="city of billings" width="" height="" /></td>
                         <form id="search-form" class="row">
                             <div id="mode-container">
                                 <input id="search-mode" value="" type="hidden" />
@@ -165,13 +164,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                             <div class="col-lg-offset-2 col-lg-8">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="search-majors-degrees" name="search" placeholder="Search by keyword" title="programs and degrees search box" />
+                                    <input type="text" class="form-control" id="search-majors-degrees" name="search" placeholder="Search by topic" title="programs and degrees search box" />
                                     <span class="input-group-btn">
                                         <button class="btn btn-default" id="search-clear" aria-label="clear program search" title="clear program search"><i class="fa fa-times"></i></button>
                                         <button class="btn btn-default" id="search-button" aria-label="execute program search" title="execute program search"><i class="fa fa-search"></i></button>
                                     </span>
                                 </div>
                             </div>
+
+                            <!-- 
                             <div class="col-lg-offset-1 col-lg-5 col-sm-6" id="filter-degree-container">
                                 <select class="form-control" id="filter-degree" title="filter by degree">
                                     <option></option>
@@ -210,11 +211,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <option value="sec">Security</option>
                                     <option value="sus">Sustainability</option>
                                 </select>
-                            </div>
+                            </div> -->
                         </form>
                     </div>
-                </div> -->
-
+                </div>
+                <p>&nbsp;</p>
 
     <form id="form1" runat="server">
     <div>
