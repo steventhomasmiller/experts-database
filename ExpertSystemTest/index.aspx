@@ -15,7 +15,7 @@
                                 <div class="program-title"><%# Eval("name") %></div>
                                 <div class="program-sub-description"><%# Eval("College") %></div>
                                     <p><strong>Department:</strong><br/><%# Eval("Dept") %></p>
-                                    <p><strong>Specialization:</strong><br/><%# Eval("Specialization") %></p>
+                                    <p class="specialization"><strong>Specialization:</strong><br/><%# Eval("Specialization") %></p>
                             </div>
                         </a>
                     </div>

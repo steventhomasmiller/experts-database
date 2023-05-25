@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ExpertSystemTest"
   ],
-  "SelectedNode": "\\ExpertSystemTest.sln",
+  "SelectedNode": "\\ExpertSystemTest\\index.aspx",
   "PreviewInSolutionExplorer": false
 }
