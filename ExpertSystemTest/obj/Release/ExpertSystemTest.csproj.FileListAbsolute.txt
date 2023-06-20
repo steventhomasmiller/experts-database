@@ -1,0 +1,2 @@
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Release\ExpertSystemTest.csproj.AssemblyReference.cache
+C:\Users\j98b363\Source\Repos\experts-database\ExpertSystemTest\obj\Release\ExpertSystemTest.csproj.CoreCompileInputs.cache

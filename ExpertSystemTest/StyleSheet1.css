@@ -5,6 +5,8 @@
  *
  * https://github.com/geedmo
  */
+
+/*
 @import "//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css";
 
@@ -73,6 +75,9 @@
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
